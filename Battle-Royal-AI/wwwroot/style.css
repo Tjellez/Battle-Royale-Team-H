@@ -49,3 +49,7 @@
 #myImage {
     text-align: center;
 }
+
+#sound {
+    max-height: 20px;
+}
