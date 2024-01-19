@@ -1,22 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Fairytale</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Bed Stories</title>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Fairytale</h1>
-    </header>
 
-    <main>
-        <!-- Your content goes here -->
-    </main>
+    <h1>Title here</h1>
 
-    <footer>
-        <p>&copy; 2022 My Fairytale. All rights reserved.</p>
-    </footer>
+    <img src="your-image.jpg" alt="Image description here">
 
-    <script src="script.js"></script>
+    <p>Text here</p>
+
+    <button onclick="play()">Play</button>
+
+    <audio id="myAudio">
+        <source src="your-audio.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <script>
+        function play() {
+            var audio = document.getElementById("myAudio");
+            audio.play();
+        }
+    </script>
+
 </body>
 </html>

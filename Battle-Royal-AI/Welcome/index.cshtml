@@ -1,9 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Welcome</title>
+    <meta charset="UTF-8">
+    <meta name="Azure Bed stories" content="width=device-width, initial-scale=1.0">
+    <title>Azure Bed Stories</title>
 </head>
 <body>
-    <h1>Welcome to my website!</h1>
+
+    <h1>Welcome to Azure Bed stories</h1>
+
+    <label for="input">What would you like to be the farytale tonight?</label>
+    <input type="text" id="input" placeholder="Enter text here">
+
+    <button onclick="showInput()">Fullfør</button>
+
+    <script>
+        function showInput() {
+            var userInput = document.getElementById("input").value;
+            console.log("You entered: " + userInput);
+        }
+    </script>
+
 </body>
 </html>
