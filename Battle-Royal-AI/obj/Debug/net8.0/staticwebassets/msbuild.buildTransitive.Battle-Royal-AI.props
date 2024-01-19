@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/Battle-Royal-AI.props" />
-</Project>
