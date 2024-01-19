@@ -6,6 +6,8 @@ obj/
 # .NET Core IDE files
 .vscode/
 *.sln.ide
+.vs/
+*.user
 
 # .NET Core NuGet Packages
 *.nuget.props
