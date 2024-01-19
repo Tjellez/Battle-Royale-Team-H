@@ -8,28 +8,26 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\marcelo.eggers\\.nuget\\packages\\": {}
+    "/Users/per.pedersen/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Battle-Royale-Team-H\\Battle-Royal-AI\\Battle-Royal-AI.csproj",
+      "projectUniqueName": "/Users/per.pedersen/Projects/bbr24/Battle-Royale-Team-H/Battle-Royal-AI/Battle-Royal-AI.csproj",
       "projectName": "Battle-Royal-AI",
-      "projectPath": "C:\\Projects\\Battle-Royale-Team-H\\Battle-Royal-AI\\Battle-Royal-AI.csproj",
-      "packagesPath": "C:\\Users\\marcelo.eggers\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Battle-Royale-Team-H\\Battle-Royal-AI\\obj\\",
+      "projectPath": "/Users/per.pedersen/Projects/bbr24/Battle-Royale-Team-H/Battle-Royal-AI/Battle-Royal-AI.csproj",
+      "packagesPath": "/Users/per.pedersen/.nuget/packages/",
+      "outputPath": "/Users/per.pedersen/Projects/bbr24/Battle-Royale-Team-H/Battle-Royal-AI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marcelo.eggers\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/per.pedersen/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/nhnfelles/_packaging/Helsenorge/nuget/v3/index.json": {}
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -65,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

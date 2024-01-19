@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Battle-Royal-AI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72f500f49dc78a14e537df3d48e5919fa52de121")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be5a354defe28a9e0b57f9bed65a9404e89d407b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Battle-Royal-AI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Battle-Royal-AI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

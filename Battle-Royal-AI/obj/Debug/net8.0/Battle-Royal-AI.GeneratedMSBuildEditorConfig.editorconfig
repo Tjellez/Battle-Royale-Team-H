@@ -9,11 +9,19 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Battle_Royal_AI
 build_property.RootNamespace = Battle_Royal_AI
-build_property.ProjectDir = C:\Projects\Battle-Royale-Team-H\Battle-Royal-AI\
+build_property.ProjectDir = /Users/per.pedersen/Projects/bbr24/Battle-Royale-Team-H/Battle-Royal-AI/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Projects\Battle-Royale-Team-H\Battle-Royal-AI
+build_property.MSBuildProjectDirectory = /Users/per.pedersen/Projects/bbr24/Battle-Royale-Team-H/Battle-Royal-AI
 build_property._RazorSourceGeneratorDebug = 
+
+[/Users/per.pedersen/Projects/bbr24/Battle-Royale-Team-H/Battle-Royal-AI/Fairytale/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RmFpcnl0YWxlL2luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/per.pedersen/Projects/bbr24/Battle-Royale-Team-H/Battle-Royal-AI/Welcome/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = V2VsY29tZS9pbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
