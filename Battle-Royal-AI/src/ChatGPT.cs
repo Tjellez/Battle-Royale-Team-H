@@ -5,7 +5,7 @@ namespace Battle_Royal_AI.src;
 
 public class ChatGPT
 {
-    public static Response<ChatCompletions> GetGoodNightStory(string storyPrompt)
+    public static string GetGoodNightStory(string storyPrompt)
     {
         string endpoint = "https://grouph-openais.openai.azure.com/";
         string key = "e385f878ea024b24935512b9ea299fc5";
@@ -25,10 +25,6 @@ public class ChatGPT
 
         Response<ChatCompletions> response = client.GetChatCompletions(chatCompletionsOptions);
 
-        Console.WriteLine(response.Value.Choices[0].Message.Content);
-
-        Console.WriteLine();
-
-        return response;
+        return response.Value.Choices[0].Message.Content;
     }
 }

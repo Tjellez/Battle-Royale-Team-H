@@ -21,11 +21,6 @@ public class DALLe
             });
 
         // Image Generations responses provide URLs you can use to retrieve requested images
-        Uri imageUri = imageGenerations.Value.Data[0].Url;
-
-        // Print the image URI to console:
-        Console.WriteLine(imageUri);
-
-        return imageUri;
+        return imageGenerations.Value.Data[0].Url;
     }
 }
