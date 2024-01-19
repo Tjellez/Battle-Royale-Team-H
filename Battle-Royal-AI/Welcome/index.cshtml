@@ -15,7 +15,7 @@
         </div>
         <div id="myInput">
             <input id="input" type="text" id="input" placeholder="Enter text here">
-            <button id="btn" onclick="showInput()">Create Fairytale</button>
+            <button id="btn" onclick="createFairytale()">Create Fairytale</button>
         </div>
         <div id="myCheck">
             <input type="checkbox" id="agelimit" name="vehicle1" value="old">
@@ -24,9 +24,10 @@
     </div>
 
     <script>
-        function showInput() {
-            var userInput = document.getElementById("input").value;
-            console.log("You entered: " + userInput);
+        function createFairytale() {
+             var newUrl = 'http://localhost:5276/fairytale';
+
+            window.location.href = newUrl;
         }
     </script>
 

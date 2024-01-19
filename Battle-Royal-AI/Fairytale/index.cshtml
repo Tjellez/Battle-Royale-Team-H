@@ -30,13 +30,20 @@
             Your browser does not support the audio tag.
         </audio>
 
-        </div>    
+        </div> 
+        <button id="back" onclick="goBack()">Go Back</button>   
     </div>
 
         <script>
             function play() {
                 var audio = document.getElementById("myAudio");
                 audio.play();
+            }
+
+            function goBack() {
+                var newUrl = 'http://localhost:5276/welcome';
+
+                window.location.href = newUrl;
             }
         </script>
 
