@@ -3,30 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="/style.css">
     <title>Azure Bed Stories</title>
 </head>
 <body>
+    <div id="body">
 
-    <h1>Title here</h1>
+        <h1 id="header">Title here</h1>
 
-    <img src="your-image.jpg" alt="Image description here">
+        <div id="myImage">
+            <img src="" alt="Image description here">
+        </div>
 
-    <p>Text here</p>
+        <div id="myText">
+            <p>Text here</p>
+        </div>    
 
-    <button onclick="play()">Play</button>
+        <div id="myInput">
+            <button id="btn" onclick="play()">
+            Play
+            <img src="/audio.png" alt="Test">
+            </button>
 
-    <audio id="myAudio">
-        <source src="your-audio.mp3" type="audio/mp3">
-        Your browser does not support the audio tag.
-    </audio>
+            <audio id="myAudio">
+            <source src="your-audio.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+        </audio>
 
-    <script>
-        function play() {
-            var audio = document.getElementById("myAudio");
-            audio.play();
-        }
-    </script>
+        </div>    
+    </div>
+
+        <script>
+            function play() {
+                var audio = document.getElementById("myAudio");
+                audio.play();
+            }
+        </script>
 
 </body>
 </html>

@@ -3,16 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="Azure Bed stories" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
     <title>Azure Bed Stories</title>
 </head>
 <body>
+    <div id="body">
+        <h1 id="header">Welcome to Azure Bed stories</h1>
 
-    <h1>Welcome to Azure Bed stories</h1>
-
-    <label for="input">What would you like to be the farytale tonight?</label>
-    <input type="text" id="input" placeholder="Enter text here">
-
-    <button onclick="showInput()">Fullfør</button>
+        <div id="myText">
+            <label for="input">What would you like to be the fairytale tonight?</label>
+        </div>
+        <div id="myInput">
+            <input id="input" type="text" id="input" placeholder="Enter text here">
+            <button id="btn" onclick="showInput()">Create Fairytale</button>
+        </div>
+        <div id="myCheck">
+            <input type="checkbox" id="agelimit" name="vehicle1" value="old">
+            <label for="agelimit">I am 18 years or older</label>
+        </div>
+    </div>
 
     <script>
         function showInput() {

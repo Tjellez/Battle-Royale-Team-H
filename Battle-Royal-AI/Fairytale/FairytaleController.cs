@@ -15,4 +15,8 @@ namespace Battle_Royal_AI;
 
     public class FairytaleModel {
         public string Prompt {get;set;} = "";
+        public string Title {get;set;} = "";
+        public string Fairytale {get;set;} = "";
+        public string Image {get;set;} = "";
+        public Uri? Sound {get;set;} = null;
     }
