@@ -14,22 +14,16 @@
             <label for="input">What would you like to be the fairytale tonight?</label>
         </div>
         <div id="myInput">
-            <input id="input" type="text" id="input" placeholder="Enter text here">
-            <button id="btn" onclick="createFairytale()">Create Fairytale</button>
+            <form>
+                <input id="input" type="text" id="input" placeholder="Enter text here">
+                <button type="submit" id="btn">Create Fairytale</button>
+            </form>
         </div>
         <div id="myCheck">
             <input type="checkbox" id="agelimit" name="vehicle1" value="old">
             <label for="agelimit">I am 18 years or older</label>
         </div>
     </div>
-
-    <script>
-        function createFairytale() {
-             var newUrl = 'http://localhost:5276/fairytale';
-
-            window.location.href = newUrl;
-        }
-    </script>
 
 </body>
 </html>
