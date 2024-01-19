@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Battle-Royal-AI.props" />
+</Project>
