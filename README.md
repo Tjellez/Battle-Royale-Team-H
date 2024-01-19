@@ -1,7 +1,7 @@
 # Battle Royale 2024 Team H
 
-## Dream team bestående av:
+### Dream team bestående av:
 - Per-Frode Pedersen
-- Marcello Eggers
+- Marcelo Eggers
 - Nicolai Hoel
 - Magne Kjellesvik
