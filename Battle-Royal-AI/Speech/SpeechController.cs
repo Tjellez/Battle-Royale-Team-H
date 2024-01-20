@@ -13,15 +13,15 @@ namespace Battle_Royal_AI.Welcome.Speech
         public SpeechController()
         {
             config.SpeechSynthesisVoiceName = "en-US-AriaNeural";
+            config.SetSpeechSynthesisOutputFormat(SpeechSynthesisOutputFormat.Audio16Khz128KBitRateMonoMp3);
         }
 
-        [HttpPost]
-        public async Task<byte[]> GenerateAudio(SpeechRequest request){
+        [HttpGet]
+        public async Task<IActionResult> GenerateAudio(string prompt){
 
             using (var syntesizer = new SpeechSynthesizer(config)){
-                var result = await syntesizer.SpeakTextAsync(request.Prompt);
-                HttpContext.Response.ContentType = "audio/wav";
-                return result.AudioData;
+                var result = await syntesizer.SpeakTextAsync(prompt);  
+                return File(result.AudioData, "audio/mp3");
                 
             }
         }
