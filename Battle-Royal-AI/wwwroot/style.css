@@ -50,6 +50,10 @@
     text-align: center;
 }
 
+#imageitself {
+    max-width: 400px;
+}
+
 #sound {
     max-height: 20px;
 }
